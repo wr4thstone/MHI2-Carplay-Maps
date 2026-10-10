@@ -86,3 +86,10 @@ means an attribute could not be read. Listing a talker is not proof that it
 belongs to the cluster or that it can safely accept another stream.
 
 No proprietary firmware payloads are included in this research directory.
+
+## Implemented routing building block
+
+`prototype/` now contains a C11 per-stream routing core and host tests for
+independent main/cluster data, lifecycle and failure handling. It is not a
+CarPlay receiver or installable firmware. See `prototype/README.md` for the
+additional native delegate observations and outstanding integration work.

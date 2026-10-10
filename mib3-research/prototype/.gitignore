@@ -1,0 +1,4 @@
+*.o
+*.a
+test_router
+test_router_san
